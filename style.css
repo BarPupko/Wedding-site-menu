@@ -1,7 +1,7 @@
 ul{
     text-decoration: none;
-    color:red;
-    background: blue;
+    background: rgb(202, 186, 123);
+    color:white;
     height: 15px;
     font-size: 10px;
     margin: 10px;
@@ -16,6 +16,7 @@ li{
 }
 
 ul a{
+    color:white;
     text-decoration: none;
 }
 
@@ -23,5 +24,5 @@ ul:hover{
     transition-timing-function: linear;
     transition-duration: 1s;
 
-    background-color: red;
+    background: rgb(0, 255, 140);
 }
