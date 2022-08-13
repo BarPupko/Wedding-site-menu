@@ -1,0 +1,27 @@
+ul{
+    text-decoration: none;
+    color:red;
+    background: blue;
+    height: 15px;
+    font-size: 10px;
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+li{
+    list-style:none;
+}
+
+ul a{
+    text-decoration: none;
+}
+
+ul:hover{
+    transition-timing-function: linear;
+    transition-duration: 1s;
+
+    background-color: red;
+}
