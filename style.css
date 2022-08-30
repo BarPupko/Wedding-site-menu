@@ -30,12 +30,12 @@
         text-decoration: none;
         background: rgb(202, 186, 123);
         color:white;
-        height: 5px;
-        font-size: 40px;
-        margin: 5px;
-        padding: 10px;
+        height: 15px;
+        font-size: 8px;
+        margin-left: 60px;
+        padding: 30px;
         font-size: large;
-        width: 1px;
+        width: 150px;
         text-align: center;
         align-items: center;
         border-radius: 10px;
@@ -92,8 +92,8 @@
         background: rgb(202, 186, 123);
         color:white;
         height: 15px;
-        font-size: 10px;
-        margin-left: 40px;
+        font-size: 8px;
+        margin-left: 60px;
         padding: 30px;
         font-size: large;
         width: 150px;
@@ -114,9 +114,8 @@
     }
     
     ul:hover{
-        transition-timing-function: linear;
-        transition-duration: 1s;
-    
+        transition: all 2s;
+        animation: inseq 3s ease 1s forwards;
         background: rgb(0, 255, 140);
     }
 
