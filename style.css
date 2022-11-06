@@ -117,4 +117,8 @@
         background: rgb(0, 255, 140);
     }
 
+    .footer1 a{
+       size:1px;
+       text-decoration: none;
+    }
 }
